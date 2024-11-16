@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<html>
-    <head></head>
-    <body>
-        <response><say voice="Polly.Amy">Thank you for calling! Have a great day.</say></response>
-    </body>
-</html>
+<Response>
+    <Say>Thanks for calling!</Say>
+</Response>
