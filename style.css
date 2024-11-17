@@ -37,7 +37,7 @@ header p {
     background: #444;
 }
 
-/* Navigation */
+/* Navigation Styles */
 nav {
     background: #1a1a1a;
     text-align: center;
@@ -64,8 +64,13 @@ nav ul li a:hover {
     color: #4caf50;
 }
 
-/* Horizontal Container */
-.horizontal-container {
+/* Section Styles */
+.section {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.card-slider {
     display: flex;
     overflow-x: auto;
     gap: 1rem;
@@ -82,6 +87,11 @@ nav ul li a:hover {
     text-align: left;
 }
 
+.card h3 {
+    margin-top: 0;
+    color: #4caf50;
+}
+
 .card ul {
     list-style: none;
     padding: 0;
@@ -93,7 +103,11 @@ nav ul li a:hover {
     margin-bottom: 0.5rem; /* Optional: Add space between items */
 }
 
-.card h3 {
-    margin-top: 0;
-    color: #4caf50;
+
+/* Footer */
+footer {
+    background: #1b1b1b;
+    text-align: center;
+    padding: 1.5rem;
+    color: #bdbdbd;
 }
