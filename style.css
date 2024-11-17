@@ -3,12 +3,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #1e1e2f;
+    color: #f4f4f4;
 }
 
 header {
-    background: linear-gradient(135deg, #4caf50, #81c784);
+    background: linear-gradient(135deg, #4caf50, #1b5e20);
     color: white;
     text-align: center;
     padding: 3rem 1rem;
@@ -23,16 +23,29 @@ header p {
     margin: 0.5rem 0;
 }
 
+.email-btn {
+    background: #ff5722;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.email-btn:hover {
+    background: #ff784e;
+}
+
+/* Navigation Styles */
 nav {
-    background: #333;
+    background: #121212;
     padding: 1rem;
     text-align: center;
 }
 
 nav ul {
-    padding: 0;
-    margin: 0;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -41,9 +54,12 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #f4f4f4;
     text-decoration: none;
-    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color: #4caf50;
 }
 
 /* Section Styles */
@@ -52,66 +68,30 @@ nav ul li a {
     text-align: center;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    max-width: 1200px;
+.card-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .card {
-    display: inline-block;
-    background: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 1rem;
-    padding: 1rem;
+    background: #2e2e3e;
+    padding: 1.5rem;
     border-radius: 10px;
-    width: 250px;
-    text-align: center;
-}
-
-.card img.icon {
-    width: 50px;
-    margin-bottom: 1rem;
-}
-
-/* Progress Bar */
-.progress-bar {
-    margin: 1rem 0;
+    flex: 0 0 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    color: #f4f4f4;
     text-align: left;
 }
 
-.progress {
-    background: #e0e0e0;
-    height: 20px;
-    border-radius: 10px;
-    position: relative;
-    margin-top: 0.5rem;
-    overflow: hidden;
+.card h3 {
+    margin-top: 0;
+    color: #4caf50;
 }
 
-.progress::before {
-    content: attr(data-percent);
-    position: absolute;
-    top: 0;
-    left: 10px;
-    font-size: 0.8rem;
-    color: white;
-    z-index: 1;
-}
-
-.progress div {
-    height: 100%;
-    background: #4caf50;
-    transition: width 1s;
-}
-
-/* Timeline */
-.timeline {
-    position: relative;
-    margin-top: 2rem;
-}
-
-.timeline-item {
-    margin: 1rem 0;
-    text-align: left;
+.card ul {
+    padding: 0;
+    list-style: none;
+    margin: 1rem 0 0;
 }
