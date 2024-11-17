@@ -3,49 +3,51 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1e1e2f;
+    background-color: #121212;
     color: #f4f4f4;
 }
 
 header {
-    background: linear-gradient(135deg, #4caf50, #1b5e20);
-    color: white;
+    background: #1f1f1f;
     text-align: center;
     padding: 3rem 1rem;
 }
 
 header h1 {
     font-size: 2.8rem;
+    margin-bottom: 0.5rem;
 }
 
 header p {
     font-size: 1.2rem;
-    margin: 0.5rem 0;
+    margin-bottom: 1rem;
 }
 
 .email-btn {
-    background: #ff5722;
+    background: #333;
     color: white;
     padding: 0.7rem 1.5rem;
     text-decoration: none;
     border-radius: 5px;
+    border: 1px solid white;
+    font-weight: bold;
 }
 
 .email-btn:hover {
-    background: #ff784e;
+    background: #444;
 }
 
 /* Navigation Styles */
 nav {
-    background: #121212;
-    padding: 1rem;
+    background: #1a1a1a;
     text-align: center;
+    padding: 1rem;
 }
 
 nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -76,7 +78,7 @@ nav ul li a:hover {
 }
 
 .card {
-    background: #2e2e3e;
+    background: #232323;
     padding: 1.5rem;
     border-radius: 10px;
     flex: 0 0 300px;
@@ -93,5 +95,12 @@ nav ul li a:hover {
 .card ul {
     padding: 0;
     list-style: none;
-    margin: 1rem 0 0;
+}
+
+/* Footer */
+footer {
+    background: #1b1b1b;
+    text-align: center;
+    padding: 1.5rem;
+    color: #bdbdbd;
 }
