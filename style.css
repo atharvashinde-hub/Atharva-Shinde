@@ -93,9 +93,16 @@ nav ul li a:hover {
 }
 
 .card ul {
-    padding: 0;
     list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.8; /* Increase line spacing */
 }
+
+.card ul li {
+    margin-bottom: 0.5rem; /* Optional: Add space between items */
+}
+
 
 /* Footer */
 footer {
